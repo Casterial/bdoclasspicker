@@ -1,7 +1,7 @@
 # Black Desert Online Class Picker Python Tool
 ### I had many friends who were indecisive on picking a new class, so I quickly wrote this up to force them to chose, the usability is simple...follow the prompt.
 
-## Example of the code working:\
+## Example of the code working:
 Black Desert Online Classes - 2023\
 Warrior\
 Ranger\
