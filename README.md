@@ -29,7 +29,7 @@ Corsair\
 Drakania\
 Woosa\
 Maegu\
-Scholar\
+Scholar
 
 Which classes to exclude? (comma separated)\
 Scholar, sorceress, drakania, wizard, ninja\
@@ -53,4 +53,4 @@ Randomly Selected:\
      • Awakening Nova\
 
 
-YOU NEED TO CHOOSE! STOP RIGHT THERE CRIMINAL!\
+YOU NEED TO CHOOSE! STOP RIGHT THERE CRIMINAL!
