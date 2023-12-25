@@ -32,6 +32,7 @@ Maegu
 Scholar
 
 Which classes to exclude? (comma separated)
+
 Scholar, sorceress, drakania, wizard, ninja
 
 Randomly Selected:
