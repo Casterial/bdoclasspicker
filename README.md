@@ -32,25 +32,25 @@ Maegu\
 Scholar
 
 Which classes to exclude? (comma separated)\
-Scholar, sorceress, drakania, wizard, ninja\
+Scholar, sorceress, drakania, wizard, ninja
 
 Randomly Selected:\
-     • Awakening Sage\
+     • Awakening Sage
 
-Would you like to run again? (y/n): y\
-
-Randomly Selected:\
-     • Awakening Maegu\
-
-Would you like to run again? (y/n): y\
+Would you like to run again? (y/n): y
 
 Randomly Selected:\
-     • Awakening Striker\
+     • Awakening Maegu
 
-Would you like to run again? (y/n): y\
+Would you like to run again? (y/n): y
 
 Randomly Selected:\
-     • Awakening Nova\
+     • Awakening Striker
+
+Would you like to run again? (y/n): y
+
+Randomly Selected:\
+     • Awakening Nova
 
 
 YOU NEED TO CHOOSE! STOP RIGHT THERE CRIMINAL!
