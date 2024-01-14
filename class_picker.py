@@ -32,27 +32,24 @@ def The_Random_Matcher(available_classes,awakeVSucc):
     print(f"\nRandomly Selected:\n \t• {theSpec} {theClass}")
 
 def main(available_classes,awakeVSucc):
-    try:
-        # Initial Selector
-        The_Random_Matcher(available_classes, awakeVSucc)
-        defaultInput = ""
-        # Trolling the indecisive people
-        too_many_runs = int(0)
-        # Main functional loop, re-select if not happy
-        while defaultInput != 'n':
-            defaultInput = input("\nWould you like to run again? (y/n): ")
-            defaultInput.lower()
-            if defaultInput == 'y':
-                # Add too_many_runs to force break after 3 runs
-                too_many_runs = too_many_runs + 1
-                The_Random_Matcher(available_classes, awakeVSucc)
-            # This person really needs to pick a class already
-            if too_many_runs == 3:
-                print("\n\nYOU NEED TO CHOOSE! STOP RIGHT THERE CRIMINAL!")
-                break
-    except KeyboardInterrupt as e:
-        print("Exiting...")
-        exit()
+    # Initial Selector
+    The_Random_Matcher(available_classes, awakeVSucc)
+    defaultInput = ""
+    # Trolling the indecisive people
+    too_many_runs = int(0)
+    # Main functional loop, re-select if not happy
+    while defaultInput != 'n':
+        defaultInput = input("\nWould you like to run again? (y/n): ")
+        defaultInput.lower()
+        if defaultInput == 'y':
+            # Add too_many_runs to force break after 3 runs
+            too_many_runs = too_many_runs + 1
+            The_Random_Matcher(available_classes, awakeVSucc)
+        # This person really needs to pick a class already
+        if too_many_runs == 3:
+            print("\n\nYOU NEED TO CHOOSE! STOP RIGHT THERE CRIMINAL!")
+            break
+    exit_code = input("\n\n<Enter> to exit the application.")
 
 if __name__ == "__main__":
     main(available_classes,awakeVSucc)
